@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #3b82f6;
+  --primary-hover-color: #2563eb;
+  --secondary-color: #10b981;
+  --secondary-hover-color: #059669;
+  --text-dark: #1f2937;
+  --text-light: #4b5563;
+  --background-light: #f9fafb;
+  --border-color: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+
+main {
+  padding: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
