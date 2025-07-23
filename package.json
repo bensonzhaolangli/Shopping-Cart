@@ -6,6 +6,8 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
+    "predeploy": "npm run build && cp dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,12 +20,11 @@
     "webpack",
     "babel"
   ],
-  ***REMOVED***,
   "license": "ISC",
   "bugs": {
     "url": "***REMOVED***"
   },
-  "homepage": "***REMOVED***",
+  "homepage": "https://bensonzhaolangli.github.io/Shopping-Cart",
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
@@ -36,6 +37,7 @@
     "@babel/preset-react": "^7.27.1",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.100.2",

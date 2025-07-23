@@ -7,7 +7,7 @@ import CartPage from "./pages/CartPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Shopping-Cart">
       <CartProvider>
         <Header />
         <main>

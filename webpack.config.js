@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/", // for React Router
+    publicPath: "/Shopping-Cart/", // for React Router
     clean: true, // clean old build files
   },
   mode: process.env.NODE_ENV || "development",

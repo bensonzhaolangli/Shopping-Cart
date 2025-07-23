@@ -1,3 +1,3 @@
 # Shopping Cart
 
-live site ->
+live site -> https://bensonzhaolangli.github.io/Shopping-Cart/shop
